@@ -1,0 +1,14 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1860px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
